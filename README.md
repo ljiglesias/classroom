@@ -7,7 +7,7 @@ En este repositorio encontrarás recursos importantes sobre Sistemas Electrónic
 ## Laboratorios
 | Laboratorio |                         Enlace                        | Titulo 		|   Fecha    |
 |:-----------:|:-----------------------------------------------------:|:-----------:|:-----------:|
-|      1      | [Clickeame!](https://classroom.github.com/a/TF49GyR3) | Blink Led! | 23 - marzo |
+|      1      | [Clickeame!](https://classroom.github.com/a/c-iGWA9O) | Blink Led! | 23 - marzo |
 
 
 ## Foro
