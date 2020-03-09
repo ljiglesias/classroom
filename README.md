@@ -18,8 +18,6 @@ Todas las preguntas se realizarán en las [issues](../../issues). Preguntas que 
 
 ## Sistema de calificación de laboratorios
 
-Esto lo encontrará en la explicación en el documento [Sistema Calificación SEP](/Administración/SistemaCalificacionSEP.pdf). A modo de resumen:
-
 Las experiencias estarán divididas en niveles, acorde a la dificultad de las tareas a realizar. Cada nivel tendrá asociado una **ponderación** en el cálculo de la nota final.
 
 
