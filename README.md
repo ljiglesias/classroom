@@ -5,9 +5,10 @@ En este repositorio encontrarás recursos importantes sobre Sistemas Electrónic
 [Introducción a GitHub](https://github.com/IEE2463/classroom/blob/master/Material%20de%20apoyo/GitHub/Introducción%20a%20GitHub.pdf) 
 
 ## Laboratorios
-| Laboratorio |                         Enlace                        | Titulo 		|   Fecha    |
-|:-----------:|:-----------------------------------------------------:|:-----------:|:-----------:|
-|      1      | [Clickeame!](https://classroom.github.com/a/c-iGWA9O) | Blink Led! | 23 - marzo |
+| Laboratorio |                         Enlace                        | Titulo 			| Nivel |   Fecha     |
+|:-----------:|:-----------------------------------------------------:|:--------------:	| :---: |:-----------:|
+|      1      | [Clickeame!](https://classroom.github.com/a/c-iGWA9O) | Blink Led!  	| 	1	| 23 - marzo  |
+| 	   2 	  | [Clickeame!](https://classroom.github.com/a/xQTAm3Pu) | Inputs y Outputs|	2	| 29 - marzo  |
 
 
 ## Foro
