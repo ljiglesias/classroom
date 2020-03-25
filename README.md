@@ -42,5 +42,5 @@ Variable laboratorio a laboratorio, la rúbrica será publicada.
 
 Pueden acceder a los Classroom de los semestres anteriores en el siguiente link
 
-- [2019-I](https://github.com/IEE2463/classroom---2019-I)
-- [2019-II](https://github.com/IEE2463/classroom---2019-II)
+- [2019-I](https://github.com/IEE2463/classroom--2019-I)
+- [2019-II](https://github.com/IEE2463/classroom--2019-II)
