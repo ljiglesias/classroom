@@ -9,6 +9,9 @@ En este repositorio encontrarás recursos importantes sobre Sistemas Electrónic
 |:-----------:|:-----------------------------------------------------:|:--------------:	| :---: |:-----------:|
 |      1      | [Clickeame!](https://classroom.github.com/a/c-iGWA9O) | Blink Led!  	| 	1	| 23 - marzo  |
 | 	   2 	  | [Clickeame!](https://classroom.github.com/a/xQTAm3Pu) | Inputs y Outputs|	2	| 29 - marzo  |
+| 	   3 	  | [Clickeame!](https://classroom.github.com/a/tUThaSWb) | PWM y ADC       |	3	| 06 - abril |
+
+
 
 
 ## Foro
@@ -16,6 +19,7 @@ En este repositorio encontrarás recursos importantes sobre Sistemas Electrónic
 Todas las preguntas se realizarán en las [issues](../../issues). Preguntas que podrían estar en las Issues, pero que fueron enviadas por correo, **NO** serán respondidas. Aquellos casos particulares que requieran reemplazo de algún material o justificar algún problema personal deben escribir un correo a:
 
 - Felipe Sánchez (fssanchez@uc.cl)
+- Camila Turrieta (cfturrieta@uc.cl)
 
 ## Sistema de calificación de laboratorios
 
