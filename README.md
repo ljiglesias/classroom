@@ -9,9 +9,8 @@ En este repositorio encontrarás recursos importantes sobre Sistemas Electrónic
 |:-----------:|:-----------------------------------------------------:|:--------------:	| :---: |:-----------:|
 |      1      | [Clickeame!](https://classroom.github.com/a/c-iGWA9O) | Blink Led!  	| 	1	| 23 - marzo  |
 | 	   2 	  | [Clickeame!](https://classroom.github.com/a/xQTAm3Pu) | Inputs y Outputs|	2	| 29 - marzo  |
-| 	   3 	  | [Clickeame!](https://classroom.github.com/a/tUThaSWb) | PWM y ADC       |	3	| 06 - abril |
-
-
+| 	   3 	  | [Clickeame!](https://classroom.github.com/a/tUThaSWb) | PWM y ADC       |	2	| 06 - abril  |
+| 	   4 	  | [Clickeame!](https://classroom.github.com/a/znmCaXqv) | Punteros		|	3	| 07 - mayo	  |
 
 
 ## Foro
