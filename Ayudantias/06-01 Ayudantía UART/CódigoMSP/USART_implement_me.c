@@ -125,29 +125,4 @@ void USART_Transmit_String(char* string)
 {
     //TAREA DE USTEDES
 
-
-
-
-
-    //NO MOSTRAR DE AQUI PARA ABAJO
-    //FUNCION PARA MOSTRAR LOS MENSAJES DEL MAIN
-
-
-
-
-
-    while (*string != '\0') {
-        /* Wait for the transmit buffer to be ready */
-        while (!(UCA1IFG&UCTXIFG));
-        /* Transmit data */
-        UCA1TXBUF = *string;
-
-        /* If there is a line-feed, add a carriage return */
-        if (*string == '\n') {
-            /* Wait for the transmit buffer to be ready */
-            while (!(UCA1IFG&UCTXIFG));
-            UCA1TXBUF = '\r';
-        }
-        string++;
-    }
 }
