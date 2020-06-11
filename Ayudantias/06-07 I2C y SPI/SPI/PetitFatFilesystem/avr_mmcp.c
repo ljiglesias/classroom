@@ -30,11 +30,13 @@
 #define F_CPU	16000000UL
 
 
+// Selección del PIN para slave select chip select 
+// En la ayudantía se trabajo con PB1
 // CS Pin and other definitions  PC1
 // ADAPT THIS if you use another CS pin for the SD card!
-#define SELECT()  	(PORTC &= ~ (1 << PORTC1))	 	/* CS = L selecciona la tarjeta sd */
-#define	DESELECT()	(PORTC |= (1 << PORTC1))	/* CS = H  deselecciona la tarjeta sd */
-#define	SELECTING	!(PORTC & (1 << PORTC1))	/* CS status (true:CS low) */
+#define SELECT()  	(PORTB &= ~ (1 << PORTB1))	 	/* CS = L selecciona la tarjeta sd */
+#define	DESELECT()	(PORTB |= (1 << PORTB1))	/* CS = H  deselecciona la tarjeta sd */
+#define	SELECTING	!(PORTB & (1 << PORTB1))	/* CS status (true:CS low) */
 #define	FORWARD(d)	xmit(d)			/* Data forwarding function (console out) */
 
 
@@ -45,7 +47,8 @@
  */
 static void init_spi (void)
 {
-  SPI_Master_Init(); 
+  // SPI_Master_Init(); 
+  // Ojo donde inicializo! (Cami inicializo en el main)
 }
 
 
