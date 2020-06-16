@@ -50,6 +50,13 @@ uint8_t USART_Init(struct USART_configuration config)
 {
 	// You can recycle your previous code. But remember, this time you are
 	// supposed to configure interrupts! Maybe you]ll have to extend it a little bit?
+
+	/*
+	Aqui hay que habilitar transmision y recepcion.
+	Ademas, hay que indicar que se agrega recepcion por interrupciones.
+	*/ 
+
+
 }
 
 
@@ -62,6 +69,16 @@ void USART_Transmit_char(uint8_t data)
 	// whenever UDR0 is free.
 	// This requires you to have some bytes in the buffer that you would like to
 	// send, of course. You have a buffer, don't you?
+
+	/* 
+	Linea corregida para que pueda funcionar con interrupciones. Creditos a:
+		- Camila Turrieta
+		- Francisco Fonseca
+	*/
+	while (!(UCSR0A & (1 << UDRE0)));			// Se espera que el buffer este libre para transmitir.
+	UDR0 = data;
+
+
 }
 
 
