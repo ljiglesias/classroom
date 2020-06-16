@@ -41,7 +41,7 @@
 // Call it at any time to change the USART communication parameters.
 //
 // Returns zero in case of success, non-zero for errors.
-uint8_t USART_Init(/* Fill here*/)
+uint8_t USART_Init(struct USART_configuration config)
 {
 	// You can recycle your previous code. But remember, this time you are
 	// supposed to configure interrupts! Maybe you]ll have to extend it a little bit?
@@ -62,7 +62,7 @@ void USART_Transmit_char(uint8_t data)
 
 
 // Transmits a given string
-void USART_Transmit_String(/* Fill here*/)
+void USART_Transmit_String(char* string)
 {
 }
 
@@ -87,7 +87,7 @@ char USART_Receive_char(void)
 // Receives a '\n' terminated string and writes it into a supplied buffer.
 // The buffer must be guaranteed to handle at least bufflen bytes.
 // Returns the number of bytes written into the buffer.
-uint8_t USART_Receive_String(/* Fill here*/)
+uint8_t USART_Receive_String(char* buffer, uint8_t bufflen)
 {
 	// Your previous code might need little adaptions here. As a nice hint: A
 	// string consists of many characters. If a user gives you a buffer to fill

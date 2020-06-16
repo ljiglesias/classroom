@@ -67,7 +67,7 @@ void USART_Transmit_char(uint8_t data)
 
 
 // Transmits a given string
-void USART_Transmit_String(/* fill here*/)
+void USART_Transmit_String(char* string)
 {
 }
 
@@ -92,7 +92,7 @@ char USART_Receive_char(void)
 // Receives a '\n' terminated string and writes it into a supplied buffer.
 // The buffer must be guaranteed to handle at least bufflen bytes.
 // Returns the number of bytes written into the buffer.
-uint8_t USART_Receive_String(/*Fill here*/)
+uint8_t USART_Receive_String(char* buffer, uint8_t bufflen)
 {
 	// Your previous code might need little adaptions here. As a nice hint: A
 	// string consists of many characters. If a user gives you a buffer to fill

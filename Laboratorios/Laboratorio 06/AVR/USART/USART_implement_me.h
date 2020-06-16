@@ -31,14 +31,13 @@ struct USART_configuration
 
 
 // Call once to initialise USART communication
-/* You can use struc, but isn't mandatory*/
 uint8_t USART_Init(struct USART_configuration config);
 
 // Transmits a single character
-void USART_Transmit_char(uint8_t data );
+void USART_Transmit_char(uint8_t data);
 
 // Transmits a given string
-void USART_Transmit_String(/* Fill here*/);
+void USART_Transmit_String(char* string);
 
 // Receives a single character
 char USART_Receive_char(void);
@@ -46,7 +45,7 @@ char USART_Receive_char(void);
 // Receives a '\n' terminated string and writes it into a supplied buffer.
 // The buffer must be guaranteed to handle at least bufflen bytes.
 // Returns the number of bytes written into the buffer.
-uint8_t USART_Receive_String(/*Fill here*/);
+uint8_t USART_Receive_String(char* buffer, uint8_t bufflen);
 
 
 #endif // _USART_IMPLEMENT_ME_H_
