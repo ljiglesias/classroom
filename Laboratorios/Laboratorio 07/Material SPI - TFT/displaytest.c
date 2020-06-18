@@ -147,11 +147,30 @@ int main(void)
 		_delay_ms(1000);
 		USART_Transmit_String("#");
 		
+		// Text Agregado en 2020-1
+		/* 
+		Camila Turrieta 
+		Felipe Sanchez
+		*/
+		fillScreen(ST7735_GREEN);	// Fully green screen.
+		_delay_ms(1000);
+
+
+		drawtext(20,15,"Sistemas",ST7735_BLUE,ST7735_WHITE,1);
+		drawtext(20,40,"Electronicos",ST7735_BLUE,ST7735_WHITE,1);
+		drawtext(20,65,"Programables",ST7735_BLUE,ST7735_WHITE,1);
+
+		drawtext(60,90,"2020-1",ST7735_BLUE,ST7735_WHITE,1);
+
+
 		
 		USART_Transmit_String(" finished!\n");
 		
 		// Here would be a nice place for drawing a bitmap, wouldn't it?
 		
+
+
+
 	}
 }
 
