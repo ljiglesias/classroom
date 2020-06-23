@@ -13,7 +13,7 @@ En este repositorio encontrarás recursos importantes sobre Sistemas Electrónic
 | 	   4 	  | [Clickeame!](https://classroom.github.com/a/znmCaXqv) | Punteros		|	3	| 07 - junio  |
 | 	   5 	  | [Clickeame!](https://classroom.github.com/a/43iprXe0) | Recuperativo	|	4	| 15 - junio  |
 | 	   6 	  | [Clickeame!](https://classroom.github.com/a/WMJ0SW-v) | UART			|	4	| 22 - junio  |
-| 	   7 	  | [Clickeame!](https://classroom.github.com/a/Pe5UaxIU) | SPI/I2C			|	5	| 01 - julio  |
+| 	   7 - Grupal 	  | [Clickeame!](https://classroom.github.com/g/_ajL38Yr) | SPI/I2C			|	5	| 01 - julio  |
 | 	   8	  |													 | Avance Proyecto		|	5	| 08 - julio  |
 
 
